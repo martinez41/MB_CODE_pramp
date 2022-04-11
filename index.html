@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Latest compiled and minified CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+
+	<link rel="stylesheet" href="style.css">
+
+	<title>pramp</title>
+</head>
+<body>
+	
+	<header>
+		<div class="container">
+			<nav class="navbar navbar-expand-sm bg-light navbar-light ">
+				<div class="container">
+					<div class="navbar-header">
+						<a href="#" class="navbar-brand"><img src="img/HeaderLogo.png" alt="" height="35px"></a>
+						<a href="#" class="navbar-brand" id="text_logo">by Exponent</a>
+					</div>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse offset-md-5"  id="navbarNavDropdown">
+					<ul class="navbar-nav col-xs-12-bg-primary">
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle"  href="#" id="list" role="button" data-bs-toggle="dropdown" aria-expanded="false">interview type</a>
+								<ul class="dropdown-menu" aria-labelledby="list">
+									<li><a class="dropdown-item"
+                       href="/dev/uc-data-structures-and-algorithms">Data Structures & Algorithms</a></li>
+									<li><a class="dropdown-item"
+                       href="/pm/uc-product-case-study">Product Management</a></li>
+									<li><a class="dropdown-item"
+                       href="/dev/uc-behavioral">Behavioral</a></li>
+									<li><a class="dropdown-item"
+                       href="/dev/uc-system-design">System Design</a></li>
+									<li><a class="dropdown-item"
+                       href="/dev/uc-frontend">Frontend</a></li>
+									<li><a class="dropdown-item"
+                       href="/dev/uc-data-science">Data Science</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link " aria-current="page" href="#">courses</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">faq</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">log in</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<div class="row" id="header_end">
+				<div class="col-md-6">
+					<span>Exclusive: Mock interviews from experts at Google, Facebook, and more (20% off)<a href="#">Learn more</a></span>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Modal -->
+		<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+			<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="staticBackdropLabel" style="background-color: ;">LOG IN</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<form style="margin:30px;">
+					<div class="form-group" >
+						<input 
+						type="email" 
+						class="form-control"
+						placeholder="Email"
+						required
+						>
+					</div>
+					<div class="form-group">
+						<input 
+						type="password" 
+						class="form-control"
+						placeholder="Password"
+						required
+						>
+					</div>
+					<div class="form-group">
+						<a href="#">Forgot password?</a>
+					</div>
+					<div class="form-group">
+						<button type="submit" class="btn btn-success form-control"> CONTINUE </button>
+					</div>
+					<div class="row">
+						<div class="col-md-5"><hr>
+						</div>
+						<div class="col-md-2 text-center">or</div>
+						<div class="col-md-5"><hr></div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<button type="button" class="btn btn-primary form-control"> CONTINUE WHIT <i class="bi bi-facebook"></i> </button>
+							
+						</div>
+						<div class="col-md-6">
+							<button type="button" class="btn btn-danger form-control"> CONTINUE WHIT <i class="fa-brands fa-google"></i></button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer text-center">
+				<span>Don't have an account? <a href="#" class="text-success">Sing up</a> </span>
+			</div>
+			</div>
+		</div>
+		</div>
+
+	<main class="container-fluid">
+
+		<section >
+				<div class="container-fluid" id="section1">
+					<div class="row offset-md-3 offset-sm-3 offset-xs-3">
+						<div class="col-md-8 ">
+							<h2 style="position: relativex;">Interviewing: the most</h2>
+						</div>
+						<div class="col-md-8">
+							<h2>profitable skill you can learn</h2>
+						</div>
+					</div>
+					
+					<div class="row offset-md-3 offset-sm-3 offset-xs-3 " style="position: relative; top:3rem; opacity:0.4;">
+						<div class="col-md-8" >
+							<h2 style="position: relative;">Don't miss out on a great job opportunity</h2>
+						</div>
+						<div class="col-md-8 ">
+							<h2>Practice live interviews with peers</h2>
+						</div>
+					</div>
+
+					<div class="row button_s1" >
+						<a href="#" >Start Praticing for Free!</a>
+					</div>
+					<div class="row"  id="button_s1" style="position: relative; top:6rem; ">
+						<span>Pramp is safe and anonymous, your data is yours</span>
+					</div>
+					
+				</div>
+		</section>
+
+		<section>
+				<div class="container-fluid bg-secondary.bg-gradient" id="section2">
+					<div class="row" id="section_img">
+						<div class="row">
+							<dir class="row offset-2 col-md-8">
+								<div class="col-md-2"><a href="#" target="_blank" rel="noopener noreferrer"><img src="img/producthunt_v2.png" alt="" srcset="" style="width:10rem;"></a></div>
+								<div class="col-md-2"><a href="#" target="_blank" rel="noopener noreferrer"><img src="img/BusinessInsider_Logo.png" alt="" srcset="" style="width:50%;"></a></div>
+								<div class="col-md-2"><a href="#" target="_blank" rel="noopener noreferrer"><img src="img/Forbes_Logo.png" alt="" srcset="" style="width:90%;"></a></div>
+								<div class="col-md-2"><a href="#" target="_blank" rel="noopener noreferrer"><img src="img/TechCrunch_Logo.png" alt="" srcset="" style="width:90%;"></a></div>
+								<div class="col-md-2"><a href="#" target="_blank" rel="noopener noreferrer"><img src="img/Silicon_valley_business_journal_Logo1.png" alt="" srcset="" style="width:90%;"></a></div>
+								<div class="col-md-2"><a href="#" target="_blank" rel="noopener noreferrer"><img src="img/Udacity_Logo.png" alt="" srcset="" style="width:90%;"></a></div>
+							</dir>
+						</div>											
+					</div>
+				</div>
+		</section>
+
+		<section>
+			<div class="conatiner-fluid">
+				<div class="container  mt-5 " >
+					<div class="row text-center h2">
+						<p>Join thousands of professionals who already use <br>Pramp to ace their job interviews</p>
+					</div>
+				</div>
+				<div class="container row">
+					<div class="col-md-4">
+						<div class="container p-3 row">
+							<div class="col-4">
+								<a href="#">
+									<img src="/img/filipe.png" alt="">
+								</a>
+							</div>
+							<div class="col-8">
+								<div class="row"> <a href="#">Filipe Gonçalves</a></div>
+								<div class="row" style="color: #949494;">offers from:</div>
+								<div class="row">
+									<label class="offer-company col-6">Google</label>
+									<label class="offer-company col-6">Microsoft</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-4">
+							<a href="#">
+								<img src="/img/ricardo.png" alt="">
+							</a>
+						</div>
+						<div class="col-8">
+								<div class="row"> <a href="#">Ricardo Canales</a></div>
+								<div class="row" style="color: #949494;">offers from:</div>
+								<div class="row">
+									<label class="offer-company col-6">Facebook</label>
+									<label class="offer-company col-6">Microsoft</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-4">
+								<a href="#">
+									<img src="/img/sherzat.png" alt="">
+								</a>
+							</div>
+							<div class="col-8">
+								<div class="row"> <a href="#">Ricardo Canales</a></div>
+								<div class="row" style="color: #949494;">offers from:</div>
+								<div class="row">
+									<label class="offer-company col-4">Amazone</label>
+									<label class="offer-company col-4">Google</label>
+									<label class="offer-company col-4">Twitter</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="conatiner-fluid" style="background-color: #bbb;">
+				<div class="container  mt-5 " >
+						<div class="row">
+							<h2 class="text-center">How Pramp Practicing Works</h2>
+							<div class="col-sm-4 text-center " >
+							<h2>1</h2>
+							<h4 class="pt-3 pb-3"><br>Get Paired</br></h4>
+							<p>Tell us when and what you want to practice and we’ll pair you with an optimal peer. We provide interview questions and a collaborative environment for you to conduct the interview.</p>
+							</div>
+							<div class="col-sm-4 text-center ">
+							<h2>2</h2>	
+							<h4 class="pt-3 pb-3"><b>Practice</b></h4>
+							<p>Interviews are conducted using a collaborative environment over video. You and your peer will interview each other for 30-45 minutes. After the interview, you’ll each provide feedback on to help each other improve.</p>
+							</div>
+							<div class="col-sm-4 text-center">
+							<h2>3</h2>	
+							<h4 class="pt-3 pb-3"><b>Ace It</b></h4>
+							<p>Learn from peers’ feedback, gain confidence and master the art of interviewing. Keep practicing until you interview like a rock star. Impress recruiters and land awesome job offers.</p>
+							</div>
+							<div class="row button_s1">
+								<a href="#" >Start Practicing!</a>
+							</div>
+						</div>
+				</div>
+		</div>
+		</section>
+
+		<section>
+			<div class="container-fluid">
+				<div class="container mt-5">
+					<div class="row">
+						<div class="text-center " >
+							<h2 style="color: #949494;">Stop preparing alone</h2>
+							<h1>Get Real <span style="color: #5524e0;" >Interview Practice</span></h1>
+							<p>Acing job interviews requires many skills: problem-solving, communication,</p>
+							<p>product sensibility, and strong technical aptitude. There's one certain way to</p>
+							<p>get dramatically better: <strong>Practicing Live Interviews.</strong> </p>
+						</div>
+						<div class="row button_s1">
+							<a  href="#">Check Out a Demo Interview</a>
+						</div>
+						<div class="container">
+							<img src="/img/prampSession.png" alt="" id="section_img">
+						</div>
+						<div class="container text-center h4">
+							<p>We've built Pramp to provide the complete tech interview practice you need,<br>for free. Hone your interviewing skills, learn from your peers, and become <br>comfortable performing under pressure within an interview setting.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="conatiner-fluid" style="background-color: #bbb;" id="">
+				<div class="container  mt-5 " >
+						<div class="row">
+							<div class="col-sm-4 text-center " >
+							<img src="/img/humanPairingIcon.png" alt="" srcset="">
+							<h4 class="pt-3 pb-3"><b>Personal Peer Matching</b></h4>
+							<p>Each practice peer is picked especially for you,</p>
+							<p>based on availability, experience, education,</p>
+							<p>practice topics, and target companies.</p>
+							</div>
+							<div class="col-sm-4 text-center ">
+							<img src="/img/questionsIcon.png" alt="">
+							<h4 class="pt-3 pb-3"><b>Full Interview Questions</b></h4>
+							<p>Full questions, answers and specific interviewing</p>
+							<p>tips enable both you and your peer to interview</p>
+							<p>each other like pros.</p>
+							</div>
+							<div class="col-sm-4 text-center">
+								<img src="/img/sessionTechIcon.png" alt="" srcset="">
+							<h4 class="pt-3 pb-3"><b>Interactive 1-on-1 Practice</b></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+							</div>
+						</div>
+				</div>
+		</div>
+		</section>
+
+	</main>
+
+	<footer>
+		<div class="container-fluid bg-white ">
+			<div class="container pt-3 pb-3">
+				<div class="row text-center">
+					<div class="col-md-2 col-sm-2">© Exponent Labs, LLC.</div>
+					<div class="col-md-2 col-sm-2"><span class="span_footer">us at:</span> <a href="#" class="footer_nav">hello@pramp.com</a></div>
+					<div class="col-md-2 col-sm-2"><a class="footer_nav" href="/interview-with-friends">Practice with friends</a></div>
+					<div class="col-md-2 col-sm-2"><a class="footer_nav" href="https://airtable.com/shrxJiCyB6bw5TFAg">WORK WITH US</a></div>
+					<div class="col-md-2 col-sm-2"><a class="footer_nav" href="https://bit.ly/3aQL95U">JOB BOARD</a></div>
+					<div class="col-md-2 col-sm-2 " id="link_footer">
+						<span class="text-center span_footer ">Join us on</span>
+						<div class="footer_link">
+							<a class="inline-block" id="footerfacebook" href="https://www.facebook.com/prampnow" target="_blank"></a>
+							<a class="inline-block" id="footerlinkedin" href="https://www.linkedin.com/company/pramp" target="_blank"></a>
+							<a class="inline-block" id="footertweeter" href="https://twitter.com/prampco" target="_blank"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
