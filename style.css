@@ -32,11 +32,12 @@ nav ul{
 nav ul li:hover{
 	background-color: #b6b6b662;
 }
+header{
+
+}
 #header_end{
 	background-color: #5524e0;
-	height: 50px;
-    display: flex;
-    justify-content: center;
+    height: 3.5rem;
 }
 #header_end span {
 	color: #fff;
@@ -62,7 +63,7 @@ nav ul li:hover{
 #section1{
     margin-top: 10rem;
 }
-h2{
+h2,h3{
     text-align: center;
 }
 a{
@@ -70,11 +71,9 @@ a{
 }
 
 .button_s1{
-    position: relative;
     text-align: center; 
     display: flex;
     justify-content: center;
-    top: 5rem;;
 }
 
 .button_s1 a{
@@ -87,7 +86,6 @@ a{
     font-size: 20px;
 }
 #section2{
-    position: relative;
     top: 10rem;
     background-color: rgb(66,65,69);
 }
@@ -109,11 +107,11 @@ a{
     border-radius:5px ;
 }
 
-section_img{
+/* section_img{
     text-align: center;
     width: 75%;
     margin: 30px auto 0;
-}
+} */
 
 /**
 *footer
@@ -133,15 +131,16 @@ section_img{
     color: #131c26;
 }
 
-#link_footer{
+/* #link_footer{
     display: flex;
 }
 
 .footer_link{
+    position: relative;
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
-}
+    align-items: center;
+    justify-content: center;
+} */
 
 
 
